@@ -8,7 +8,6 @@ github_username:  0xrohinth
 hashnode_username: 0xrohinth
 medium_url: https://0xrohinth.hashnode.dev/
 email_form: https://forms.gle/Usni3yU1hHyVTa857
-appstore_url: 
 
 ### Build settings ###
 baseurl: ""  # If you are not using a custom URL, remove this
@@ -35,22 +34,19 @@ kramdown:
 title: Rohinth Rathna
 tagline: Cybersecurity Enthusiast
 description: My personal website
-url: https://yaakovbressler.com
+url: https://0xrohinth.github.io/
 
 # Default social media image
 defaults:
   - scope:
       path: ""
     values:
-      image: /images/yaakov-bressler-headshot.jpeg
+      image: /images/me2.jpg
 
-twitter:
-  username: yaakovbressler
-  card: summary_large_image
 
 social:
   name: Rohinth Rathna
   links:
-    - https://yaakovbressler.medium.com/
-    - https://www.linkedin.com/in/yaakovbressler
-    - https://github.com/ybressler
+    - https://0xrohinth.hashnode.dev/
+    - https://www.linkedin.com/in/rohinth-rathna-s-355272254/
+    - https://github.com/0xRohinth
