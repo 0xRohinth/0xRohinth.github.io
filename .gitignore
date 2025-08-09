@@ -1,0 +1,6 @@
+_site/
+*.DS_Store
+.secrets
+.env
+vendor/
+.bundle/

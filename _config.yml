@@ -1,0 +1,56 @@
+theme: jekyll-theme-minimal
+username: Rohinth Rathna
+user_description: Cybersecurity Enthusiast
+
+# Social Links
+linkedin_username: rohinth-rathna-s
+github_username:  0xrohinth
+hashnode_username: 0xrohinth
+medium_url: https://0xrohinth.hashnode.dev/
+email_form: https://forms.gle/Usni3yU1hHyVTa857
+appstore_url: 
+
+### Build settings ###
+baseurl: ""  # If you are not using a custom URL, remove this
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-menus
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-github-metadata
+  - jekyll-sitemap  # This should be last
+
+cname: 
+
+relative_links:
+  enabled:     true
+  collections: false
+
+kramdown:
+    auto_ids: true
+
+
+### SEO Stuff ###
+title: Rohinth Rathna
+tagline: Cybersecurity Enthusiast
+description: My personal website
+url: https://yaakovbressler.com
+
+# Default social media image
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/yaakov-bressler-headshot.jpeg
+
+twitter:
+  username: yaakovbressler
+  card: summary_large_image
+
+social:
+  name: Rohinth Rathna
+  links:
+    - https://yaakovbressler.medium.com/
+    - https://www.linkedin.com/in/yaakovbressler
+    - https://github.com/ybressler

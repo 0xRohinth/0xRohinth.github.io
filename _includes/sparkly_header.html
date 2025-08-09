@@ -1,0 +1,60 @@
+
+<section id="sparkly-header">
+
+
+  <div class="header">
+
+
+
+      <div class="headshot">
+        <div class="profile-container">
+          <!-- <div class="click-me-prompt">  -->
+            <!-- <svg class="arrow-svg" viewBox="0 0 100 80"> -->
+              <!-- <path class="arrow-path" d="M 15 40 Q 50 55 95 55 L 85 45 M 95 55 L 85 65" /> -->
+            <!-- </svg> -->
+            <!-- <div class="prompt-text"></div> -->
+          <!-- </div> -->
+          <img id="headshot-img" src="images/me3.jpg" alt="My Headshot">
+        </div>
+      </div>
+
+      <h1>
+        <div id="site-title">
+          <span class="site-title">{{ site.username }}</span>
+        </div>
+        <div id="site-description">
+          <span class="site-description">{{ site.user_description }}</span>
+        </div>
+      </h1>
+      <div class="header-icons">
+        {% if site.email %}
+        <a aria-label="Send email" href="mailto:{{ site.email }}"><i class="icon fa fa-envelope"></i></a>
+        {% elsif site.email_form %}
+        <a aria-label="Send email" target="_blank" href="{{ site.email_form }}"><i class="icon fa fa-envelope"></i></a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.instagram_username %}
+        <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/{{ site.instagram_username }}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.facebook_username %}
+        <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.linkedin_username %}
+        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="icon fa fa-linkedin-square" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.github_username %}
+        <a aria-label="My Github" target="_blank" href="https://github.com/{{ site.github_username }}"><i class="icon fa fa-github" aria-hidden="true"></i></a>
+        {% endif %}
+        {% if site.medium_url %}
+        <a aria-label="My Medium" target="_blank" href="{{ site.medium_url }}"><i class="icon fa fa-blog" aria-hidden="true"></i></a>
+        {% endif %}
+        
+      </div>
+      <div class="header-links">
+        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
+      </div>
+  </div>
+  <a class="down" href="#main" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</section>
