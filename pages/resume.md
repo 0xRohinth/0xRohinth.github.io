@@ -1,7 +1,7 @@
 ---
 layout: default
 title: resume
-permalink: /rohinth_rathna_resume(withOutHyper).pdf
+permalink: /rohinth_rathna_resume.pdf
 menus:
   header:
     identifier: resmue
