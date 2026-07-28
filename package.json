@@ -1,0 +1,28 @@
+{
+  "name": "cyber-portfolio",
+  "version": "2.0.0",
+  "description": "Cyber Portfolio & Security Knowledge Base v2.0",
+  "main": "build.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/style.css -o ./assets/css/style.css --minify",
+    "build:site": "node build.js",
+    "build": "npm run build:css && npm run build:site",
+    "dev": "node build.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "portfolio",
+    "ctf-writeups",
+    "blue-team",
+    "soc-analyst"
+  ],
+  "author": "Rohinth Rathna",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^11.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
